@@ -1,0 +1,68 @@
+header.homeimg:before {
+    opacity: 0.2;
+}
+@media (min-width: 992px) {
+    header.homeimg {
+      padding-top: 12.5rem;
+      padding-bottom: 20rem;
+    }
+}
+.lucida {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.myblue {
+  color: #18FFDC;
+}
+.myorange {
+  color: #FF5C0B;
+}
+body {
+  background-color: black;
+}
+h1 {
+  color: rgb(225, 225, 225);
+  font-weight: 600;
+}
+h2 {
+  color: rgb(225, 225, 225);
+  font-weight: 400;
+}
+h3 {
+  color: rgb(200, 200, 200);
+  font-weight: 300;
+}
+h6 {
+  color: rgb(225, 225, 225);
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+p {
+  color: rgb(225, 225, 225);
+}
+ol {
+  color: rgb(225, 225, 225);
+  font-size: 1.4rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul {
+  color: rgb(200, 200, 200);
+  font-size: 1.25rem;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.padLeft {
+  padding-left: 20px;
+}
+.padRight {
+  padding-right: 20px;
+}
+.vertCenter {
+  display: flex;
+  align-items: center;
+}
